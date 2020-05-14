@@ -35,7 +35,8 @@ Enter the following data:
 | **Host(s)**     | https://www.spamhaus.org/drop/drop.txt  | *Don't Route Or Peer List*  |
 +-----------------+-----------------------------------------+-----------------------------+
 
-Set the update frequency to 1 for each day.
+Set the refresh frequency days to 1 and hours to 0 for a refresh frequency of 24 hours. If you set 
+days to 1 and hours to 12 it would refresh every 36 hours.
 
 Press **Save** and then **Add a new alias**.
 
@@ -49,7 +50,7 @@ Press **Save** and then **Add a new alias**.
 | **Host(s)**     | https://www.spamhaus.org/drop/edrop.txt | *Extended Don't Route Or Peer List* |
 +-----------------+-----------------------------------------+-------------------------------------+
 
-Set the update frequency to 1 for each day.
+Set the refresh frequency to 1 day for every 24 hours.
 Press **Save** and then **Apply changes**.
 
 .. image:: images/spamhaus_drop_edrop.png
